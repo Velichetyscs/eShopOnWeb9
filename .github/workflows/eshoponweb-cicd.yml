@@ -5,11 +5,11 @@ on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: eshoponweb-rg9
-  LOCATION: westeurope
+  RESOURCE-GROUP: eshoponweb-9rg
+  LOCATION: centralus
   TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: 25715ce0-6ad7-4b0c-8219-c2b19fca7c02
-  WEBAPP-NAME: eshoponweb-webapp-Syamala
+  SUBSCRIPTION-ID: 477d006b-5ece-47e7-a112-5912e887c840
+  WEBAPP-NAME: eshoponweb-webapp-ad
 
 
 jobs:
